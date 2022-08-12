@@ -13,3 +13,6 @@ Copied from bootstrap. Pictures are not of corect sizes.
 Home Page => Descent home page
 
 Short Description of this website => Website Design which has a descent navbar. Added a carousel. Added a home page. This website is not responsive.
+
+Started on 9 August, 2022
+Completed on 12 August, 2022
