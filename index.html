@@ -1,68 +1,122 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Website</title>
-      <!--font awesome cdn link -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
 
-      <!-- custom bootstrap css link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- custom bootstrap css link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
 
-        <!-- custom css file link -->
-    <link rel="stylesheet" href="style.css">
-</head>
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Navbar starts -->
 
     <header class="navbar">
+      <div class="headings">
+        <a class="h1 special" href="#home">Home</a>
+        <a class="h1" href="#raffles">Raffles</a>
+        <a class="h1" href="#games">Games</a>
+        <a class="h1" href="#tournaments">Tournaments</a>
+      </div>
+      <div class="logo"><img src="img/logo.jpg" alt="" /></div>
 
-        <div class="headings">
-            <a class="h1 special" href="#home">Home</a>
-            <a class="h1" href="#raffles">Raffles</a>
-            <a class="h1" href="#games">Games</a>
-            <a class="h1" href="#tournaments">Tournaments</a>
-        </div>
-        <div class="logo"><img src="" alt=""></div>
+      <div class="extra heading">
+        <a class="h2" href="#pages">Pages</a>
+        <a class="h2" href="#contact">Contact Us</a>
+      </div>
 
-        <div class="extra heading">
-            <a class="h2" href="#pages">Pages</a>
-            <a class="h2" href="#contact">Contact Us</a>
-        </div>
-
-        <div class="icons">
-            <div class="fas fa-bars" id="menu-btn"></div>
-        </div>
-
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
     </header>
 
     <div class="headings-1">
-        <a class="h4" href="#home">Home</a>
-        <a class="h4" href="#raffles">Raffles</a>
-        <a class="h4" href="#games">Games</a>
-        <a class="h4" href="#tournaments">Tournaments</a>
-        <a class="h4" href="#pages">Pages</a>
-        <a class="h4" href="#contact">Contact Us</a>
+      <a class="h4" href="#home">Home</a>
+      <a class="h4" href="#raffles">Raffles</a>
+      <a class="h4" href="#games">Games</a>
+      <a class="h4" href="#tournaments">Tournaments</a>
+      <a class="h4" href="#pages">Pages</a>
+      <a class="h4" href="#contact">Contact Us</a>
     </div>
 
- 
+    <!-- Carousel starts -->
+    <div
+      id="carouselExampleFade"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carousel.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="img/carousel-2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="img/carousel-3.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-    </body>
+    <!-- Carousel ends -->
 
+    <!-- Home section starts -->
 
+    <section id="home" class="home">
+      <div class="content">
+        <h1>Welcome <span>Gamers</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolorum
+          ut beatae repellendus repudiandae facere.
+        </p>
+        <a href="#"><button class="btn btn-primary">Register Yourself</button></a>
 
+        <div class="shape"></div>
+      </div>
+    </section>
 
+    <!-- Home section ends -->
+  </body>
 
-<!-- custom bootstrap js link -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  <!-- custom bootstrap js link -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"
+  ></script>
 
-    <!-- custom js file link -->
-<script src="script.js"></script>
-
+  <!-- custom js file link -->
+  <script src="script.js"></script>
 </html>
